@@ -11,16 +11,16 @@ def main():
 
     # input
     number_1 = int(input("Enter the first number (integer): "))
-    number_2 = int(input("Enter the second number (integer):"))
+    number_2 = int(input("Enter the second number (integer): "))
 
     # process
     result = number_1 + number_2
 
     # output
     print("")
-    print("The sum of your two numbers are {0}.".format(result))
+    print("{0} + {1} = {2}.".format(number_1, number_2, result))
     print("")
-    print("done")
+    print("Done.")
 
 
 if __name__ == "__main__":
